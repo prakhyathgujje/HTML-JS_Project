@@ -4,53 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bethany's Pie Shop - Delicious Pies and Cakes, Available for Order Worldwide.">
     <title>Bethany's Pie Shop</title>
+    <link rel="stylesheet" href="site.css" type="text/css"/>
     <style>
-        h1{
-            font-size: 3em;
-            margin-top: 0.5EM; 
+        /* General page styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
         }
-        .banner{
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2em 1em;
+            text-align: center;
+        }
+
+        .hero {
             max-width: 100%;
+            height: auto;
         }
-        .sub-title{
+
+        .banner {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 0.5em;
+            color: #333;
+        }
+
+        .sub-title {
             background-color: #fff;
             font-size: 1.5em;
             padding: 10px;
+            color: #444;
+            margin-bottom: 1em;
+        }
+
+        .desc {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
-    <link rel="stylesheet" href="site.css" type="text/css"/>
 </head>
 <body>
+
     <header>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="pies.html">Pies</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <aside><img src="/images/logo.png" alt="Logo" ></aside>
-        <article>
-        <img src="./images/banner.png" alt="banner"></div>
-        <h1>Welcome to Betheny's Pie Shop</h1>
-        <p class="desc">For many years, Bethany has been baking the most delicious pies at her home. In 2013, we opened our first store in Brussels (Belgium) in a cosy little street near the Grand Market. People from all over the world fell in love with the soft cakes, heavenly cheese cakes, spicy apple pies...
-            The store became a success in no time.
-            
-            In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved into a larger building. After receiving many requests, it became clear that our next step was making it possible to order pies from the comfort of your own home and from anywhere in the world. You are now looking at the result of this: our very own webstore, making it possible to order Bethany's delicious pies whenever you feel like it!
-        </p>
-    </article>
+        <section>
+            <aside>
+                <img src="/images/logo.png" alt="Bethany's Pie Shop Logo" />
+            </aside>
+
+            <article>
+                <img src="./images/banner.png" alt="A delicious pie selection" class="banner">
+                <h1>Welcome to Bethany's Pie Shop</h1>
+                <p class="sub-title">Baking dreams into pies since 2013</p>
+                <p class="desc">
+                    For many years, Bethany has been baking the most delicious pies at her home. In 2013, we opened our first store in Brussels (Belgium) in a cozy little street near the Grand Market. People from all over the world fell in love with our soft cakes, heavenly cheesecakes, and spicy apple pies. The store became a success in no time.
+
+                    By 2015, no less than 100 pies were sold every day, and Bethany's Pie Shop moved into a larger building. After receiving many requests, it became clear that our next step was making it possible to order pies from the comfort of your own home and from anywhere in the world. Now, you can easily order Bethany's delicious pies anytime, anywhere, through our very own webstore!
+                </p>
+            </article>
+        </section>
     </main>
+
     <footer>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="pies.html">Pies</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <p>&copy; 2025 Bethany's Pie Shop. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
